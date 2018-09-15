@@ -40,3 +40,6 @@ if(isset($_POST['code'])){
 
 </html>
 ```
+
+## Custom fonts
+Place your prefered fonts in the "fonts" directory. LewCaptcha will use these fonts automatically. 

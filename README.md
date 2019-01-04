@@ -32,7 +32,7 @@ if(isset($_POST['code'])){
     <input type="text" name="code" />
     <input type="submit" value="Go" style='margin-bottom: 20px;' /><br />
 
-    <?= $LewCaptcha->showCaptcha() ?>
+    <?php echo $LewCaptcha->showCaptcha("HTML") ?>
   </form>
 
 </body>
